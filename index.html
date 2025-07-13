@@ -1,1 +1,42 @@
-<p>Site</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Dad | Music Lover | Body Builder</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- 3270 Nerd Font (fallback to monospace if not available) -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-neutral-900 text-red-500 font-mono min-h-screen flex flex-col items-center justify-start">
+  <div class="w-screen h-1.5 bg-gradient-to-r from-red-500 via-neutral-900 to-red-500 mb-8"></div>
+  <header class="mt-8 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold tracking-widest drop-shadow mb-2">Tech Dad | Music Lover | Body Builder</h1>
+    <p class="text-lg">Dark, Retro, and Red - Powered by 3270 Nerd Font</p>
+  </header>
+  <main class="w-full flex flex-col items-center">
+    <section class="bg-neutral-800 border border-red-500/30 rounded-lg my-6 p-8 w-11/12 max-w-xl shadow-lg">
+      <h2 class="text-2xl border-b-2 border-red-500 inline-block pb-1 mb-2">👨‍💻 Tech Dad</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+      <button id="tech-btn" class="mt-4 px-4 py-2 bg-red-700 text-white rounded hover:bg-red-600 transition">Click Me</button>
+      <div id="tech-output" class="mt-2 text-sm"></div>
+    </section>
+    <section class="bg-neutral-800 border border-red-500/30 rounded-lg my-6 p-8 w-11/12 max-w-xl shadow-lg">
+      <h2 class="text-2xl border-b-2 border-red-500 inline-block pb-1 mb-2">🎵 Music Lover</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur consectetur, nisl nisi consectetur nisi, eu consectetur nisl nisi euismod nisi.</p>
+      <button id="music-btn" class="mt-4 px-4 py-2 bg-red-700 text-white rounded hover:bg-red-600 transition">Surprise Me</button>
+      <div id="music-output" class="mt-2 text-sm"></div>
+    </section>
+    <section class="bg-neutral-800 border border-red-500/30 rounded-lg my-6 p-8 w-11/12 max-w-xl shadow-lg">
+      <h2 class="text-2xl border-b-2 border-red-500 inline-block pb-1 mb-2">🏋️ Body Builder</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+      <button id="body-btn" class="mt-4 px-4 py-2 bg-red-700 text-white rounded hover:bg-red-600 transition">Motivate Me</button>
+      <div id="body-output" class="mt-2 text-sm"></div>
+    </section>
+  </main>
+  <div class="w-screen h-1.5 bg-gradient-to-r from-red-500 via-neutral-900 to-red-500 mt-8"></div>
+  <script src="main.js"></script>
+</body>
+</html>
